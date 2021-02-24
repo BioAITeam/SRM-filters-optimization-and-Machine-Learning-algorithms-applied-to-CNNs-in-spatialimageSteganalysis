@@ -2,11 +2,8 @@
 The main contribution from researchers in the image steganalysis field are new architectures that further improve the detection accuracy of steganographic images, usually a Convolutional Neural Network (CNN) combining feature extraction and classification in a single model. Nevertheless, preprocessing is one of the most important stages and has a direct impact on the overall performance of CNNs. This paper presents a modification on the preprocessing stage of existing CNNs, improving accuracy without major changes on the original architectures. Furthermore, it presents an evaluation of the performance of traditional machine learning models when using image features extracted using CNNs. These results indicate that certain modifications in the preprocessing stage of the classification process have a positive effect on the detection accuracy.
 ## Folders
 - **CNNs Bifurcation** This folder contains the notebooks GBRAS-Net, Ye-Net, Xu-Net, Yedroudj-Net, VGG-16stego and VGG-19stego with a bifurcation for preprocessing of steganographic images. 
-- **CNN input** This folder contains the notebooks Xu-Net and Ye-Net with three different approaches; Usual(providing all the cover images, then all the stego images), Random(random positions of cover and stego images), and order (alter-nates cover and stego images).
-- **Database partition** This folder contains the notebooks Xu-Net and Ye-Net with different data partitions.
-- **Image normalization** This folder contains the notebooks Xu-Net and Ye-Net with different image normalization.
-- **SRM filters normalization** This folder contains the notebooks Xu-Net and Ye-Net with different image normalization, and SRM filters normalization.
-- **Trained model** This folder contains the Ye-Net weights with WOW 0.4 bpp.
+- **ML_ActivationMaps_Filters** This folder contains the notebooks .
+
 
  
 ## Requirements
