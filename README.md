@@ -67,7 +67,7 @@ Enter the cloned folder, Select the folder of your choice and run the notebook o
 
 ## Note 
 - Before running the notebook, please verify that the file paths are correct.
--  From the Notebook **paperGBRAS-Net_ML_Activation_Maps.ipynb** activation maps of the last three convolutions and the last Bach Normalization were obtained and generated as images, which enter different machine learning classifiers. The activation maps can be downloaded from the <a href="https://drive.google.com/drive/folders/1wgWXDW5TCgHAhIS1HGUX_HGn0vVRS-Ud?usp=sharing">link</a>.
+-  From the Notebook **paperGBRAS-Net_ML_Activation_Maps.ipynb** activation maps of the last three convolutions and the last Bach Normalization were obtained and generated as images, which enter different machine learning classifiers. The activation maps can be downloaded from the <a href="https://drive.google.com/drive/folders/11orb6y0FdKrImobXgEuBAXLTrtdr2vvq">link</a>.
 ## Databases
 
 
