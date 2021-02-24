@@ -10,8 +10,12 @@ The main contribution from researchers in the image steganalysis field are new a
 This repository requires the following libraries and frameworks:
 
 - TensorFlow 
+- scipy
+- scikit-learn
+- Datetime
 - numPy 
 - OpenCV 
+- Yellowbrick
 - Matplotlib
 - Time
 - random
@@ -25,11 +29,11 @@ This repository was developed in the Python3 (3.8) programming language.
 
 if you don't use google colab, We highly recommend to use and install Python packages within an Anaconda enviroment. To create, execute the command below:
 ```
-conda create --name Sensitivity python=3.8
+conda create --name Improving python=3.8
 ```
 So, activate it
 ```
-conda activate Sensitivity 
+conda activate Improving
 ```
 installed the framework
 ```
@@ -39,25 +43,31 @@ Now, install the libraries.
 ```
 pip install opencv-python
 conda install -c conda-forge matplotlib
+conda install -c anaconda scipy
 conda install -c jmcmurray os
 conda install -c conda-forge time
 conda install -c anaconda scikit-image
+conda install -c anaconda scikit-learn
+conda install -c trentonoliphant datetime
+conda install -c districtdatalabs yellowbrick
 ```
 ## Execution
 After installing all the Requirements, you must clone the repository using.
 ```
-git clone https://github.com/BioAITeam/Sensitivity-of-Deep-Learning-Applied-to-Spatial-Image-Steganalysis.git
+git clone https://github.com/BioAITeam/Preprocessing-stage-Improving-CNNs-based-on-SRMoptimization-for-spatial-image-steganalysis
+.git
 ```
-If you will use colab, upload the cloned folder to drive, then open the folder of your choice and run either of the two notebooks.
+If you will use colab, upload the cloned folder to drive, Select the folder of your choice and run the notebook of your choice.
 
 if you are going to use your computer, install:
 ```
 conda install jupyter 
 ```
-Enter the cloned folder, hen open the folder of your choice and run either of the two notebooks.
+Enter the cloned folder, Select the folder of your choice and run the notebook of your choice.
 
 ## Note 
-Before running the notebook, please verify that the file paths are correct.
+- Before running the notebook, please verify that the file paths are correct.
+-  From the Notebook **paperGBRAS-Net_ML_Activation_Maps.ipynb** activation maps of the last three convolutions and the last Bach Normalization were obtained and generated as images, which enter different machine learning classifiers. The activation maps can be downloaded from the <a href="https://drive.google.com/drive/folders/1G5vdhW11_qKfVC6W8_pfJpstVkXUk1QQ?usp=sharing">link</a>.
 ## Databases
 
 
