@@ -5,8 +5,6 @@ The main contribution from researchers in the image steganalysis field are new a
 - **ML_ActivationMaps_Filters** In the notebook **paperGBRAS-Net_ML_Activation_Maps.ipynb**, features are obtained from GBRAS-Net bifurcation and steganographic image classification is performed based on machine learning methods. In the notebooks **paperGBRAS-Net_activation_maps_tp_tpn_fp_fn.ipynb** and **paperGBRAS-Net_filters_activation_maps.ipynb** are the algorithms to obtain the different activation maps shown in this research.
 - **Trained_models_SRMbifurcation** This folder has trained models of the CNNs. 
 
-
- 
 ## Requirements
 This repository requires the following libraries and frameworks:
 
@@ -14,7 +12,7 @@ This repository requires the following libraries and frameworks:
 - scipy
 - scikit-learn
 - Datetime
-- numPy 
+- NumPy 
 - OpenCV 
 - Yellowbrick
 - Matplotlib
